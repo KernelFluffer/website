@@ -1,4 +1,6 @@
 body {
+    margin: 0;
+    padding: 0;
     background-color: #333;
 }
 
@@ -15,6 +17,17 @@ p {
 }
 
 a {
-    color: inherit;
     color: white;
+    text-align: center;
+}
+
+.anime-garden {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.github {
+    text-align: center;
 }
