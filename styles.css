@@ -1,33 +1,20 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #333;
 }
 
-h1 {
-    color: white;
+.header-website-name {
     text-align: center;
 }
 
-p {
-    font-family: verdana;
-    font-size: 20px;
-    color: white;
-    text-align: center;
+.header-link-github {
+    position: fixed;
+    top: 10px;
+    display: flex;
+    margin: 10px;
 }
 
-a {
-    color: white;
-    text-align: center;
-}
-
-.anime-garden {
-    width: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.github {
-    text-align: center;
+.header-a-github {
+    text-decoration: none;
+    color: black;
 }
