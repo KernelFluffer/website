@@ -3,18 +3,35 @@ body {
     padding: 0;
 }
 
-.header-website-name {
-    text-align: center;
+.header-title {
+    position: fixed;
+    left: 50%;
 }
 
-.header-link-github {
+.header-section {
+
+    background-color: #333;
+}
+
+.header-github {
     position: fixed;
     top: 10px;
     display: flex;
     margin: 10px;
 }
 
+.main-p {
+    position: relative;
+    top: 75px;
+    color: black;
+}
+
 .header-a-github {
     text-decoration: none;
     color: black;
+}
+
+.footer {
+    position: relative;
+    bottom: -900px;
 }
