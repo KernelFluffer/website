@@ -6,7 +6,24 @@ body {
 .header-title {
     position: fixed;
     left: 50%;
+    top: 10px;
     transform: translate(-50%, -50%);
+    color: white;
+}
+
+.header-a-github {
+    text-decoration: none;
+    color: white;
+}
+
+header{
+    position:fixed;
+    width:100%;
+    top: 0px;
+    padding: 30px;
+    font-family: courier;
+    background-color: #333;
+    z-index: 2020;
 }
 
 
@@ -24,10 +41,6 @@ body {
     color: black;
 }
 
-.header-a-github {
-    text-decoration: none;
-    color: black;
-}
 
 .footer {
     position: relative;
